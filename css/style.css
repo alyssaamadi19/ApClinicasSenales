@@ -653,6 +653,33 @@ h6 {
   text-align: left;
 }
 
+#services .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#services .col-md-6 {
+  flex: 0 0 25%; /* Esto asegura que haya 4 columnas */
+  max-width: 25%;
+}
+
+@media (max-width: 768px) {
+  #services .col-md-6 {
+    flex: 0 0 50%; /* En pantallas pequeñas, 2 columnas */
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  #services .col-md-6 {
+    flex: 0 0 100%; /* En pantallas muy pequeñas, 1 columna */
+    max-width: 100%;
+  }
+}
+
+
+
 /* Why Us Section
 --------------------------------*/
 
