@@ -34,26 +34,28 @@
   <!--==========================
   Header
   ============================-->
- <header id="header">
+<header id="header" style="padding: 10px 0;">
 
-    <div class="container">
+  <div class="container d-flex align-items-center justify-content-between">
 
-      <div class="logo float-left">
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <h1 class="text-light"><a href="#intro" class="scrollto"><span></span></a></h1>
-        <a href="#header" class="scrollto"><img src="img/LogoxInsnsb.png" alt="" class="img-fluid" style="width: 150px; height: auto;"></a>
-      </div>
-
-      <nav class="main-nav float-right d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="#intro">Inicio</a></li>
-          <li><a href="#about">Sobre Nosotros</a></li>
-          <li><a href="#services">Proyectos</a></li>
-        </ul>
-      </nav><!-- .main-nav -->
-      
+    <div class="logo">
+      <!-- Logo con mejor alineación -->
+      <a href="#header" class="scrollto">
+        <img src="img/LogoxInsnsb.png" alt="Logo INSN SB" class="img-fluid" style="width: 150px; height: auto; display: block;">
+      </a>
     </div>
-  </header><!-- #header -->
+
+    <nav class="main-nav d-none d-lg-block">
+      <ul class="d-flex align-items-center" style="gap: 20px;">
+        <li class="active"><a href="#intro" style="font-weight: bold;">Inicio</a></li>
+        <li><a href="#about" style="font-weight: bold;">Sobre Nosotros</a></li>
+        <li><a href="#services" style="font-weight: bold;">Proyectos</a></li>
+      </ul>
+    </nav><!-- .main-nav -->
+
+  </div>
+</header><!-- #header -->
+
 
 <!--==========================
     Intro Section
